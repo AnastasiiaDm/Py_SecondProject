@@ -7,30 +7,13 @@
 """
 
 a = 28
-aTables = a / 2
-aTablesInt = a // 2
 b = 29
-bTables = b / 2
-bTablesInt = b // 2
-c = 31
-cTables = c / 2
-cTablesInt = c // 2
+c = 32
+
+print(a // 2 + a % 2)
+print(b // 2 + b % 2)
+print(c // 2 + c % 2)
 
 
 
-if (aTables == aTablesInt):
-    print(aTablesInt)
-else:
-    print(aTablesInt + 1)
 
-
-if (bTables == bTablesInt):
-    print(bTablesInt)
-else:
-    print(bTablesInt + 1)
-
-
-if (cTables == cTablesInt):
-    print(cTablesInt)
-else:
-    print(cTablesInt + 1)
